@@ -1,0 +1,21 @@
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linkone, 
+.linktwo, 
+.linkthree {
+    display: flex;
+    flex: 1 auto;
+}
+
+.linkthree {
+    margin-right: 200px;
+}
+
+.logo {
+    margin-right: 500px;
+    margin-left: 200px;
+}
