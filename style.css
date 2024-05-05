@@ -1,7 +1,13 @@
+body {
+    margin: 0;
+}
+
 .header {
     display:flex;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 70px;
+    background: lightgrey;
 }
 
 .linkone, 
@@ -18,4 +24,43 @@
 .logo {
     margin-right: 500px;
     margin-left: 200px;
+}
+
+.sectionone {
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-direction: column;
+    padding-bottom: 85px;
+    background: lightgrey;
+}
+
+.signup {
+    background: cornflowerblue;
+    color: white;
+    border: white;
+    margin-top: 8px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.catch {
+    max-width: 250px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.subtext {
+    max-width: 350px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+img {
+    width: 450px;
+    height: auto;
+    position: absolute;
+    margin-left: 470px;
 }
