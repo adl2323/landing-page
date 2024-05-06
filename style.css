@@ -32,11 +32,14 @@ body {
 .sectionone {
     display: flex;
     justify-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
     flex-direction: column;
     margin-bottom: 0px;
     background: lightgrey;
+}
+
+.catch,
+.subtext {
+    padding-left: 200px;
 }
 
 .signup {
@@ -67,7 +70,7 @@ body {
     width: 450px;
     height: auto;
     position: absolute;
-    margin-left: 470px;
+    margin-left: 650px;
     margin-bottom: 850px;
 }
 
@@ -92,6 +95,11 @@ ul {
 .img {
     margin-right: 10px;
     margin-left: 30px;
+}
+
+.imgone, 
+.pone {
+    margin-left: 225px;
 }
 
 li p {
