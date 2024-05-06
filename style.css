@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vh;
 }
 
 .header {
@@ -32,7 +35,7 @@ body {
     padding-left: 200px;
     padding-right: 200px;
     flex-direction: column;
-    padding-bottom: 85px;
+    margin-bottom: 0px;
     background: lightgrey;
 }
 
@@ -41,6 +44,7 @@ body {
     color: white;
     border: white;
     margin-top: 8px;
+    margin-bottom: 120px;
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
@@ -54,13 +58,70 @@ body {
 
 .subtext {
     max-width: 350px;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 0px;
+    color: rgba(14, 14, 14, 0.995);
 }
 
-img {
+.car {
     width: 450px;
     height: auto;
     position: absolute;
     margin-left: 470px;
+    margin-bottom: 850px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.sectiontwo {
+    background: white;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.catchtwo {
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+
+.img {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+li p {
+    margin-left: 30px;
+}
+
+.sectionthree {
+    display: flex;
+    background-color: rgb(31, 31, 95);
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.quote {
+    color:white;
+    font-size: 30px;
+    font-weight:100;
+}
+
+.author {
+    align-self: flex-end;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.quote, 
+.author {
+    max-width: 600px;
 }
